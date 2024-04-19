@@ -1,4 +1,6 @@
 # Planering Driverbot
+## Mål:
+En LEGO-bil som kan köra fram, back och smidigt kan svänga. Den ska ha en funktion, kartläggning, men jag ska komma på något mer. Bilen och den/de extra funktionerna ska visas på en hemsida som ska använda sig av svelte och MQTT.
 ## Byggande:
 ### Hållare:
 1. Kadda/3D-printa motorhållare
@@ -10,7 +12,13 @@
 3. Sätt ihop chassit, styrningsmekanismen och alla hållare
 ## Programering:
 ### Hemsida:
-1. Få bilen att köra fram, bak
-2. Programera servo så att den kan åka fram/bak samtidigt som servot rör sig
-3. Omforma svelte-templaten till en passande hemsida
-4. Integrera styrfunktion i hemsidan
+1. Lära mig svelte
+2. Lära mig MQTT
+3. Få bilen att köra fram, bak
+4. Programera servo så att den kan åka fram/bak samtidigt som servot rör sig
+5. Omforma svelte-templaten till en passande hemsida
+6. Integrera styrfunktion i hemsidan
+## Extra funktionaliteter:
+### kartläggning:
+#### Plan 1:
+Mäta hur långt bilen åker på ett varv av hjulen implikera det till ett visst antal 
