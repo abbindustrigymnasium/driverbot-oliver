@@ -18,7 +18,14 @@ En LEGO-bil som kan köra fram, back och smidigt kan svänga. Den ska ha en funk
 4. Programera servo så att den kan åka fram/bak samtidigt som servot rör sig
 5. Omforma svelte-templaten till en passande hemsida
 6. Integrera styrfunktion i hemsidan
-## Extra funktionaliteter:
-### kartläggning:
-#### Plan 1:
-Mäta hur långt bilen åker på ett varv av hjulen implikera det till ett visst antal 
+## Hur?
+### Bil:
+En funktion som styr motorns hastighet som jag kallar i en if-statement med w/s som restriktioner, w = vanlig hastighet, s = hastighet * (-1). Funktionen ska även räkna varv på hjulen som jag sedan ska använda för att kartlägga åkturen. 
+
+En funktion som styr servots rotation som jag kallar i en if-statement med a/d som restriktioner. Drar med hjälp av python turtle.
+### Hemsida:
+Använda svelte för att läsa av knapptrycken
+![Skärmbild 2024-04-23 122927](https://github.com/abbindustrigymnasium/driverbot-oliver/assets/143164356/97c30ba9-18a9-44a4-a114-cd4ee01b6812)
+
+![Skärmbild 2024-04-23 124729](https://github.com/abbindustrigymnasium/driverbot-oliver/assets/143164356/399085bf-3e84-430a-b154-f86107a7b338)
+
